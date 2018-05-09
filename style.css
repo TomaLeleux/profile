@@ -1,5 +1,7 @@
 body{
-  background-color: #284b63;
+  /*background-color: #284b63;*/
+  background: rgb(40,75,99);
+  background: linear-gradient(180deg, rgba(40,75,99,0.8925945378151261) 0%, rgba(0,23,40,1) 100%);
   font-family: Open Sans;
   font-weight: 400;
   color: #284b63;
@@ -39,13 +41,37 @@ a:hover{
   font-weight: bold;
 }
 
+#sidebar {
+  background-color: #3c6e71;
+  position: fixed;
+  width: 10%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 5%;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #job{
   display: inline-block;
   padding-left: 0px;
 }
 
 .container {
-  width: 800px;   /* This sets the width */
+  width: 900px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
@@ -94,4 +120,8 @@ a:hover{
   border-style: solid;
   background-color: #3c6e71;
   color: white;
+}
+
+.fa, .fas{
+  color: black;
 }

@@ -1,0 +1,97 @@
+body{
+  background-color: #284b63;
+  font-family: Open Sans;
+  font-weight: 400;
+  color: #284b63;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+h1{
+  font-family: Anton, Varela Round;
+  font-size: 2em;
+  color: #d62828;
+}
+
+h2{
+  font-family: Varela Round, Roboto, Montserrat;
+  font-size: 1.7em;
+}
+
+h3{
+  font-family: Varela Round, Roboto, Montserrat;
+  font-size: 1.4em;
+}
+
+p{
+  font-family: Roboto, Montserrat;
+  font-size: 1.2em;
+}
+
+a{
+  font-size: 1.1em;
+  color: #3c6e71;
+}
+
+a:hover{
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#job{
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card-rounded{
+  border-radius: 10px;
+}
+
+#avatar{
+  width: 250px;
+  height: 250px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-grey {
+  background: #d9d9d9;
+  box-shadow: 8px 8px 5px black;
+  border-style: outset;
+  padding: 2%;
+  margin: 5%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+#movies
+{
+  border-collapse:separate;
+  border-spacing:0 25px;
+}
+
+.synopsis {
+  width: 50%;
+  border-style: solid;
+  background-color: #3c6e71;
+  color: white;
+}
